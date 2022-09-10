@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+}
+.center div{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.right{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.right div{
+    margin-left: 15px;
+}
+.sign{
+    height: 30px;
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
