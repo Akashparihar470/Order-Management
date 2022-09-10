@@ -1,0 +1,61 @@
+.container{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    background-color: ghostwhite;
+    padding: 20px 20px 20px 20px;
+}
+.heading{
+    display: flex;
+}
+.heading h1{
+   margin-left: 60px;
+}
+.search{
+    width: 250px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 440px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+table{
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid ghostwhite;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+  }
+  button{
+    background-color: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 10px;
+  }
+  td p{
+    font-size: 14px;
+  }
+  .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .createbut{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  
